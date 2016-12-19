@@ -42,10 +42,4 @@
 
     <bean class="com.cloud.aopproxy.memcached.MemcachedPostProcessor"/>
 
-    <!--<aop:config proxy-target-class="true">
-        <aop:aspect ref="memcachedAspectBean">
-            <aop:around method="doAround" pointcut="execution(* net.rubyeye.xmemcached.MemcachedClient.*(..))"/>
-        </aop:aspect>
-    </aop:config>-->
-
 </beans>
